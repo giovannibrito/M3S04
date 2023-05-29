@@ -1,0 +1,3 @@
+O que você entendeu da tecnologia Docker?
+---
+Docker é uma ferramenta de virtualização que permite ao usuário criar, utilizar, compartilhar e gerenciar containers que contenham todo o código e dependências necessárias para rodar uma aplicação

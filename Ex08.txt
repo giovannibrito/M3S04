@@ -1,0 +1,10 @@
+Como podemos subir essa imagem gerada para o hub da Docker?
+-----
+Primeiro devemos fazer o login:
+docker login
+
+Após inserir as credenciais precisamos renomear a imagem:
+docker tag idImagem user/nomeImagem:tag
+
+Por fim fazemos o upload da imagem para o repositório:
+docker push user/nomeImagem:tag

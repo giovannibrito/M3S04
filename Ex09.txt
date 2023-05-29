@@ -1,0 +1,3 @@
+Diga com suas palavras o que é o Kubernetes (k8s)
+---
+Kubernetes é um orquestrador de containers, uma ferramenta utilizada para gerenciar um cluster que possui sua aplicação rodando em containers. O kubernetes dentre outras coisas, garante que a carga seja dividada entre as máquinas que participam desse cluster e pode também garantir que algumas estrategias de manutenção sejam implementadas, como manter sempre um mínimo de servidores ativos durante uma atualização do sistema

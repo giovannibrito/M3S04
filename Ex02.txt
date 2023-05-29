@@ -1,0 +1,3 @@
+O que é a virtualização de aplicações em contêiner / microserviço? fale com suas palavras…
+---
+Alocar recursos computacionais para executar um software que simula um computador rodando um sistema operacional com a nossa aplicação.

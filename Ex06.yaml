@@ -1,0 +1,22 @@
+version: "3"
+services:
+    web:
+        image: php:7.4-apache
+        container_name: php
+        ports:
+            - "8080:80"
+        volumes:
+            - C:\Users\developer\projeto:/var/www/html/projeto
+
+    banco:
+        image: mysql:5.7.24
+        container_name: mysql
+        ports:
+            - "3306:3306"
+        volumes:
+            - philips:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD:rootdb__
+
+volumes:
+    philips:
